@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PDH Course Details - View course information, objectives, and enrollment options for CivilCE continuing education courses.">
+    <meta name="keywords" content="PDH course details, engineering course information, continuing education">
+    <meta name="author" content="CivilCE">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Course Details - CivilCE">
+    <meta property="og:description" content="View detailed information about this PDH course for Professional Engineers.">
+    <meta property="og:image" content="https://civilce.org/assets/logo.svg">
+    <meta property="og:url" content="https://civilce.org/course-detail.html">
+    <meta property="og:type" content="website">
+    
+    <title>Course Details | CivilCE - PDH Continuing Education</title>
+    
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="assets/styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        .course-header {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-light) 100%);
+            color: white;
+            padding: 3rem 0;
+        }
+        .course-meta {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 1rem;
+        }
+        .course-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .course-sidebar {
+            position: sticky;
+            top: 100px;
+        }
+        .enrollment-card {
+            background: white;
+            border-radius: 1rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            padding: 2rem;
+        }
+        .price-display {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary-orange);
+            margin: 1rem 0;
+        }
+        .course-features {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0;
+        }
+        .course-features li {
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .course-features li::before {
+            content: "✓";
+            color: var(--accent-green);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        .course-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .objectives-list {
+            list-style: none;
+            padding: 0;
+        }
+        .objectives-list li {
+            padding: 0.75rem 0;
+            padding-left: 2rem;
+            position: relative;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        .objectives-list li:last-child {
+            border-bottom: none;
+        }
+        .objectives-list li::before {
+            content: "🎯";
+            position: absolute;
+            left: 0;
+        }
+        .instructor-card {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            padding: 1.5rem;
+            background: var(--gray-50);
+            border-radius: 0.5rem;
+            margin-top: 1rem;
+        }
+        .instructor-avatar {
+            width: 80px;
+            height: 80px;
+            background: var(--primary-blue);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 2rem;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip to Content Link -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="index.html" aria-label="CivilCE Home">
+                    <img src="assets/logo.svg" alt="CivilCE Logo" width="200" height="60">
+                </a>
+            </div>
+            
+            <button class="navbar-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="states.html">States We Serve</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Course Header -->
+        <section class="course-header">
+            <div class="container">
+                <div class="badge badge-warning" id="course-category">Structural Engineering</div>
+                <h1 id="course-title">Advanced Seismic Design Principles</h1>
+                <div class="course-meta">
+                    <div class="course-meta-item">
+                        <span>📚</span>
+                        <span id="course-pdh">8 PDH Hours</span>
+                    </div>
+                    <div class="course-meta-item">
+                        <span>⏱️</span>
+                        <span id="course-duration">8 hours</span>
+                    </div>
+                    <div class="course-meta-item">
+                        <span>📊</span>
+                        <span id="course-level">Advanced</span>
+                    </div>
+                    <div class="course-meta-item">
+                        <span>👨‍🏫</span>
+                        <span id="course-instructor">Dr. Michael Chen, PE, SE</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Course Content -->
+        <section class="section">
+            <div class="container">
+                <div class="grid" style="grid-template-columns: 1fr 400px; gap: 3rem; align-items: start;">
+                    <!-- Main Content Area -->
+                    <div class="course-detail">
+                        <!-- Course Description -->
+                        <div class="course-section">
+                            <h2>Course Description</h2>
+                            <p id="course-description">
+                                Comprehensive coverage of modern seismic design principles including performance-based design, 
+                                nonlinear analysis, and the latest building code requirements. Learn practical applications for 
+                                earthquake-resistant structures. This course provides in-depth knowledge of seismic hazard assessment, 
+                                structural dynamics, and advanced analysis techniques used in modern earthquake engineering practice.
+                            </p>
+                        </div>
+                        
+                        <!-- Learning Objectives -->
+                        <div class="course-section">
+                            <h2>Learning Objectives</h2>
+                            <p>Upon completion of this course, you will be able to:</p>
+                            <ul id="course-objectives" class="objectives-list">
+                                <li>Understand performance-based seismic design methodology</li>
+                                <li>Apply nonlinear static and dynamic analysis techniques</li>
+                                <li>Implement latest ASCE 7 seismic provisions</li>
+                                <li>Design earthquake-resistant structural systems</li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Course Outline -->
+                        <div class="course-section">
+                            <h2>Course Outline</h2>
+                            <ol style="padding-left: 1.5rem;">
+                                <li><strong>Introduction to Seismic Design</strong> (1 hour)
+                                    <ul>
+                                        <li>Earthquake fundamentals</li>
+                                        <li>Seismic hazard assessment</li>
+                                        <li>Building code evolution</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Structural Dynamics</strong> (2 hours)
+                                    <ul>
+                                        <li>Single degree of freedom systems</li>
+                                        <li>Multi-degree of freedom systems</li>
+                                        <li>Response spectrum analysis</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Performance-Based Design</strong> (2 hours)
+                                    <ul>
+                                        <li>Performance objectives</li>
+                                        <li>Capacity design principles</li>
+                                        <li>Nonlinear analysis methods</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Building Code Requirements</strong> (2 hours)
+                                    <ul>
+                                        <li>ASCE 7 provisions</li>
+                                        <li>Seismic design categories</li>
+                                        <li>Detailing requirements</li>
+                                    </ul>
+                                </li>
+                                <li><strong>Case Studies and Applications</strong> (1 hour)
+                                    <ul>
+                                        <li>Real-world examples</li>
+                                        <li>Lessons from past earthquakes</li>
+                                        <li>Best practices</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                        </div>
+                        
+                        <!-- Instructor Information -->
+                        <div class="course-section">
+                            <h2>About the Instructor</h2>
+                            <div class="instructor-card">
+                                <div class="instructor-avatar">👨‍🏫</div>
+                                <div>
+                                    <h3 id="instructor-name">Dr. Michael Chen, PE, SE</h3>
+                                    <p>Dr. Chen is a licensed Professional and Structural Engineer with over 25 years of experience in seismic design and earthquake engineering. He has designed numerous high-rise buildings and critical facilities in seismic zones and serves on the ASCE 7 Seismic Subcommittee. Dr. Chen holds a Ph.D. in Structural Engineering from UC Berkeley and is a recognized expert in performance-based seismic design.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Course Requirements -->
+                        <div class="course-section">
+                            <h2>Course Requirements</h2>
+                            <ul>
+                                <li><strong>Prerequisites:</strong> Basic understanding of structural analysis and design</li>
+                                <li><strong>Materials Needed:</strong> Calculator, ASCE 7 standard (reference provided)</li>
+                                <li><strong>Assessment:</strong> Final quiz with 70% passing score</li>
+                                <li><strong>Certificate:</strong> Issued immediately upon successful completion</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- Sidebar -->
+                    <div class="course-sidebar">
+                        <div class="enrollment-card">
+                            <h3 class="text-center">Enroll in This Course</h3>
+                            <div class="price-display text-center" id="course-price">$199</div>
+                            
+                            <ul class="course-features">
+                                <li>8 PDH Hours Certificate</li>
+                                <li>100% Online & Self-Paced</li>
+                                <li>Instant Certificate Delivery</li>
+                                <li>NCEES Approved</li>
+                                <li>Nevada Board Accepted</li>
+                                <li>Lifetime Access</li>
+                                <li>Money-Back Guarantee</li>
+                            </ul>
+                            
+                            <button class="btn btn-primary btn-block" style="font-size: 1.1rem; padding: 1rem;">
+                                Enroll Now - $199
+                            </button>
+                            
+                            <p class="text-center mt-3" style="color: var(--gray-600); font-size: 0.9rem;">
+                                <strong>30-Day Money-Back Guarantee</strong><br>
+                                Not satisfied? Get a full refund.
+                            </p>
+                            
+                            <hr style="margin: 1.5rem 0;">
+                            
+                            <div class="text-center">
+                                <p style="font-weight: 600; margin-bottom: 0.5rem;">Need Help?</p>
+                                <p style="font-size: 0.9rem;">
+                                    <a href="tel:1-800-734-2687">📞 1-800-PDH-COURSE</a><br>
+                                    <a href="mailto:support@civilce.org">📧 support@civilce.org</a>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <!-- Bundle Offer -->
+                        <div class="card mt-3">
+                            <div class="card-body text-center">
+                                <h4 style="color: var(--primary-orange);">💰 Save with Bundles!</h4>
+                                <p>Get this course plus others at a discounted rate</p>
+                                <a href="courses.html#bundles" class="btn btn-secondary">View Bundle Options</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Related Courses -->
+        <section class="section" style="background: var(--gray-50);">
+            <div class="container">
+                <h2 class="text-center mb-4">Related Courses</h2>
+                <div id="related-courses" class="grid grid-3">
+                    <!-- Related courses will be loaded dynamically -->
+                    <div class="card course-card">
+                        <div class="card-body">
+                            <h4>Bridge Inspection and Maintenance</h4>
+                            <span class="course-pdh">6 PDH</span>
+                            <p>Essential training for bridge inspection following NBIS standards.</p>
+                            <div class="course-price">$149</div>
+                            <a href="course-detail.html?id=bridge-inspection-002" class="btn btn-secondary mt-2">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card course-card">
+                        <div class="card-body">
+                            <h4>Steel Structure Design Updates</h4>
+                            <span class="course-pdh">4 PDH</span>
+                            <p>Stay current with the latest updates to AISC specifications.</p>
+                            <div class="course-price">$99</div>
+                            <a href="course-detail.html?id=steel-structure-003" class="btn btn-secondary mt-2">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card course-card">
+                        <div class="card-body">
+                            <h4>Foundation Design for Difficult Soils</h4>
+                            <span class="course-pdh">6 PDH</span>
+                            <p>Specialized foundation design for challenging soil conditions.</p>
+                            <div class="course-price">$149</div>
+                            <a href="course-detail.html?id=foundation-design-010" class="btn btn-secondary mt-2">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="assets/logo.svg" alt="CivilCE" style="height: 50px; margin-bottom: 1rem; filter: brightness(0) invert(1);">
+                    <p>Professional Development Hours for Civil Engineers</p>
+                    <p>NCEES-Approved Continuing Education</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Browse Courses</a></li>
+                        <li><a href="states.html">States We Serve</a></li>
+                        <li><a href="about.html">About CivilCE</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html#faq">FAQ</a></li>
+                        <li><a href="contact.html">Help Center</a></li>
+                        <li><a href="mailto:support@civilce.org">support@civilce.org</a></li>
+                        <li><a href="tel:1-800-PDH-COURSE">1-800-PDH-COURSE</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#refund">Refund Policy</a></li>
+                        <li><a href="#accreditation">Accreditation</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 CivilCE | civilce.org | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="assets/main.js"></script>
+</body>
+</html>

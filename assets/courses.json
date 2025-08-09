@@ -1,0 +1,375 @@
+{
+  "courses": [
+    {
+      "id": "seismic-design-001",
+      "title": "Advanced Seismic Design Principles",
+      "category": "Structural Engineering",
+      "pdh": 8,
+      "price": 199,
+      "instructor": "Dr. Michael Chen, PE, SE",
+      "description": "Comprehensive coverage of modern seismic design principles including performance-based design, nonlinear analysis, and the latest building code requirements. Learn practical applications for earthquake-resistant structures.",
+      "objectives": [
+        "Understand performance-based seismic design methodology",
+        "Apply nonlinear static and dynamic analysis techniques",
+        "Implement latest ASCE 7 seismic provisions",
+        "Design earthquake-resistant structural systems"
+      ],
+      "duration": "8 hours",
+      "level": "Advanced",
+      "featured": true,
+      "image": "seismic-design.jpg"
+    },
+    {
+      "id": "bridge-inspection-002",
+      "title": "Bridge Inspection and Maintenance",
+      "category": "Structural Engineering",
+      "pdh": 6,
+      "price": 149,
+      "instructor": "Sarah Johnson, PE",
+      "description": "Essential training for bridge inspection following NBIS standards. Covers inspection techniques, condition assessment, load rating, and maintenance strategies for various bridge types.",
+      "objectives": [
+        "Perform NBIS-compliant bridge inspections",
+        "Identify and document structural deficiencies",
+        "Conduct load rating calculations",
+        "Develop maintenance and repair recommendations"
+      ],
+      "duration": "6 hours",
+      "level": "Intermediate",
+      "featured": true,
+      "image": "bridge-inspection.jpg"
+    },
+    {
+      "id": "steel-structure-003",
+      "title": "Steel Structure Design Updates",
+      "category": "Structural Engineering",
+      "pdh": 4,
+      "price": 99,
+      "instructor": "Robert Williams, PE, SE",
+      "description": "Stay current with the latest updates to AISC specifications and design guides. Focus on new provisions for stability design, connection design, and seismic applications.",
+      "objectives": [
+        "Apply latest AISC 360 specifications",
+        "Design connections per updated standards",
+        "Implement new stability design methods",
+        "Understand seismic design requirements"
+      ],
+      "duration": "4 hours",
+      "level": "Intermediate",
+      "featured": false,
+      "image": "steel-structure.jpg"
+    },
+    {
+      "id": "highway-safety-004",
+      "title": "Highway Safety Design Standards",
+      "category": "Transportation Engineering",
+      "pdh": 6,
+      "price": 149,
+      "instructor": "James Martinez, PE, PTOE",
+      "description": "Comprehensive review of highway safety design including roadside design, intersection safety, and implementation of the Highway Safety Manual. Includes case studies and practical applications.",
+      "objectives": [
+        "Apply Highway Safety Manual procedures",
+        "Design safer roadside environments",
+        "Implement intersection safety improvements",
+        "Conduct road safety audits"
+      ],
+      "duration": "6 hours",
+      "level": "Intermediate",
+      "featured": true,
+      "image": "highway-safety.jpg"
+    },
+    {
+      "id": "traffic-flow-005",
+      "title": "Traffic Flow Analysis and Optimization",
+      "category": "Transportation Engineering",
+      "pdh": 5,
+      "price": 125,
+      "instructor": "Dr. Lisa Park, PE, PTOE",
+      "description": "Advanced traffic engineering concepts including capacity analysis, signal timing optimization, and intelligent transportation systems. Uses latest HCM methodologies.",
+      "objectives": [
+        "Perform traffic capacity analyses",
+        "Optimize signal timing plans",
+        "Design intelligent transportation systems",
+        "Apply HCM 6th Edition procedures"
+      ],
+      "duration": "5 hours",
+      "level": "Advanced",
+      "featured": false,
+      "image": "traffic-flow.jpg"
+    },
+    {
+      "id": "pavement-design-006",
+      "title": "Pavement Design and Management",
+      "category": "Transportation Engineering",
+      "pdh": 7,
+      "price": 175,
+      "instructor": "Thomas Anderson, PE",
+      "description": "Modern pavement design methods including mechanistic-empirical design, pavement management systems, and sustainable pavement practices. Covers both flexible and rigid pavements.",
+      "objectives": [
+        "Apply mechanistic-empirical pavement design",
+        "Develop pavement management strategies",
+        "Design sustainable pavement solutions",
+        "Perform life-cycle cost analysis"
+      ],
+      "duration": "7 hours",
+      "level": "Intermediate",
+      "featured": true,
+      "image": "pavement-design.jpg"
+    },
+    {
+      "id": "stormwater-mgmt-007",
+      "title": "Stormwater Management Best Practices",
+      "category": "Water Resources",
+      "pdh": 8,
+      "price": 199,
+      "instructor": "Jennifer Davis, PE, CFM",
+      "description": "Comprehensive stormwater management including LID techniques, green infrastructure, water quality treatment, and regulatory compliance. Emphasizes sustainable design approaches.",
+      "objectives": [
+        "Design low impact development systems",
+        "Implement green infrastructure solutions",
+        "Meet water quality treatment requirements",
+        "Ensure regulatory compliance"
+      ],
+      "duration": "8 hours",
+      "level": "Intermediate",
+      "featured": true,
+      "image": "stormwater-mgmt.jpg"
+    },
+    {
+      "id": "flood-risk-008",
+      "title": "Flood Risk Assessment and Mitigation",
+      "category": "Water Resources",
+      "pdh": 6,
+      "price": 149,
+      "instructor": "Dr. Richard Brown, PE, CFM",
+      "description": "Advanced flood risk assessment techniques including hydrologic and hydraulic modeling, floodplain mapping, and design of flood mitigation measures.",
+      "objectives": [
+        "Perform flood risk assessments",
+        "Develop hydraulic models using HEC-RAS",
+        "Design flood mitigation structures",
+        "Understand FEMA regulations and mapping"
+      ],
+      "duration": "6 hours",
+      "level": "Advanced",
+      "featured": false,
+      "image": "flood-risk.jpg"
+    },
+    {
+      "id": "water-treatment-009",
+      "title": "Water Treatment Plant Design",
+      "category": "Water Resources",
+      "pdh": 10,
+      "price": 249,
+      "instructor": "Patricia Wilson, PE, ENV SP",
+      "description": "Complete water treatment plant design from source to distribution. Covers conventional and advanced treatment processes, regulatory requirements, and optimization strategies.",
+      "objectives": [
+        "Design complete water treatment systems",
+        "Select appropriate treatment technologies",
+        "Meet Safe Drinking Water Act requirements",
+        "Optimize plant operations"
+      ],
+      "duration": "10 hours",
+      "level": "Advanced",
+      "featured": true,
+      "image": "water-treatment.jpg"
+    },
+    {
+      "id": "foundation-design-010",
+      "title": "Foundation Design for Difficult Soils",
+      "category": "Geotechnical Engineering",
+      "pdh": 6,
+      "price": 149,
+      "instructor": "Dr. Kevin Lee, PE, GE",
+      "description": "Specialized foundation design techniques for challenging soil conditions including expansive soils, collapsible soils, and liquefiable soils. Includes ground improvement methods.",
+      "objectives": [
+        "Design foundations in problematic soils",
+        "Apply ground improvement techniques",
+        "Perform settlement analyses",
+        "Mitigate liquefaction risks"
+      ],
+      "duration": "6 hours",
+      "level": "Advanced",
+      "featured": false,
+      "image": "foundation-design.jpg"
+    },
+    {
+      "id": "slope-stability-011",
+      "title": "Slope Stability Analysis",
+      "category": "Geotechnical Engineering",
+      "pdh": 5,
+      "price": 125,
+      "instructor": "Mark Thompson, PE, GE",
+      "description": "Comprehensive slope stability analysis methods including limit equilibrium and finite element approaches. Covers natural slopes, embankments, and excavations.",
+      "objectives": [
+        "Perform slope stability analyses",
+        "Use software tools for stability calculations",
+        "Design slope stabilization measures",
+        "Assess landslide risks"
+      ],
+      "duration": "5 hours",
+      "level": "Intermediate",
+      "featured": false,
+      "image": "slope-stability.jpg"
+    },
+    {
+      "id": "retaining-wall-012",
+      "title": "Retaining Wall Design Methods",
+      "category": "Geotechnical Engineering",
+      "pdh": 4,
+      "price": 99,
+      "instructor": "David Garcia, PE",
+      "description": "Design of various retaining wall systems including gravity walls, cantilever walls, and mechanically stabilized earth walls. Includes seismic design considerations.",
+      "objectives": [
+        "Design different retaining wall types",
+        "Calculate earth pressures",
+        "Check stability requirements",
+        "Apply seismic design provisions"
+      ],
+      "duration": "4 hours",
+      "level": "Intermediate",
+      "featured": false,
+      "image": "retaining-wall.jpg"
+    },
+    {
+      "id": "environmental-impact-013",
+      "title": "Environmental Impact Assessment",
+      "category": "Environmental Engineering",
+      "pdh": 8,
+      "price": 199,
+      "instructor": "Dr. Amanda Foster, PE, ENV SP",
+      "description": "Comprehensive environmental impact assessment procedures including NEPA compliance, environmental site assessments, and mitigation strategies for infrastructure projects.",
+      "objectives": [
+        "Conduct environmental impact assessments",
+        "Ensure NEPA compliance",
+        "Develop mitigation strategies",
+        "Prepare environmental documentation"
+      ],
+      "duration": "8 hours",
+      "level": "Intermediate",
+      "featured": false,
+      "image": "environmental-impact.jpg"
+    },
+    {
+      "id": "sustainable-infra-014",
+      "title": "Sustainable Infrastructure Design",
+      "category": "Environmental Engineering",
+      "pdh": 6,
+      "price": 149,
+      "instructor": "Christopher Moore, PE, LEED AP",
+      "description": "Sustainable design principles for civil infrastructure including green building practices, renewable energy integration, and life-cycle assessment methodologies.",
+      "objectives": [
+        "Apply sustainable design principles",
+        "Integrate renewable energy systems",
+        "Perform life-cycle assessments",
+        "Achieve green building certifications"
+      ],
+      "duration": "6 hours",
+      "level": "Intermediate",
+      "featured": true,
+      "image": "sustainable-infra.jpg"
+    },
+    {
+      "id": "remediation-tech-015",
+      "title": "Remediation Technologies",
+      "category": "Environmental Engineering",
+      "pdh": 7,
+      "price": 175,
+      "instructor": "Nancy Rodriguez, PE",
+      "description": "Modern remediation technologies for contaminated sites including soil and groundwater treatment methods, vapor intrusion mitigation, and emerging technologies.",
+      "objectives": [
+        "Select appropriate remediation technologies",
+        "Design treatment systems",
+        "Evaluate remediation effectiveness",
+        "Understand regulatory frameworks"
+      ],
+      "duration": "7 hours",
+      "level": "Advanced",
+      "featured": false,
+      "image": "remediation-tech.jpg"
+    },
+    {
+      "id": "engineering-ethics-016",
+      "title": "Engineering Ethics and Professional Responsibility",
+      "category": "Ethics and Professional Practice",
+      "pdh": 2,
+      "price": 49,
+      "instructor": "William Harris, PE, Esq.",
+      "description": "Essential ethics training for professional engineers covering professional codes of conduct, ethical decision-making, and case studies of engineering failures and successes.",
+      "objectives": [
+        "Understand professional codes of ethics",
+        "Apply ethical decision-making frameworks",
+        "Recognize conflicts of interest",
+        "Maintain professional integrity"
+      ],
+      "duration": "2 hours",
+      "level": "All Levels",
+      "featured": true,
+      "image": "engineering-ethics.jpg"
+    },
+    {
+      "id": "project-mgmt-017",
+      "title": "Project Management for Engineers",
+      "category": "Ethics and Professional Practice",
+      "pdh": 4,
+      "price": 99,
+      "instructor": "Michelle Taylor, PE, PMP",
+      "description": "Project management fundamentals tailored for engineering projects. Covers planning, scheduling, budgeting, risk management, and team leadership.",
+      "objectives": [
+        "Develop project plans and schedules",
+        "Manage project budgets and resources",
+        "Identify and mitigate project risks",
+        "Lead engineering teams effectively"
+      ],
+      "duration": "4 hours",
+      "level": "Intermediate",
+      "featured": false,
+      "image": "project-mgmt.jpg"
+    },
+    {
+      "id": "risk-mgmt-018",
+      "title": "Risk Management in Engineering",
+      "category": "Ethics and Professional Practice",
+      "pdh": 3,
+      "price": 75,
+      "instructor": "Dr. Joseph Clark, PE",
+      "description": "Comprehensive risk management strategies for engineering projects including risk identification, assessment, mitigation, and monitoring throughout the project lifecycle.",
+      "objectives": [
+        "Identify project risks systematically",
+        "Perform risk assessments",
+        "Develop risk mitigation strategies",
+        "Monitor and control risks"
+      ],
+      "duration": "3 hours",
+      "level": "Intermediate",
+      "featured": false,
+      "image": "risk-mgmt.jpg"
+    }
+  ],
+  "bundles": [
+    {
+      "id": "essential-pack",
+      "name": "Essential Pack",
+      "description": "Perfect starter package for meeting annual PDH requirements",
+      "pdh": 15,
+      "price": 299,
+      "savings": 25,
+      "included_courses": ["engineering-ethics-016", "highway-safety-004", "stormwater-mgmt-007"]
+    },
+    {
+      "id": "professional-pack",
+      "name": "Professional Pack",
+      "description": "Comprehensive package for two-year renewal cycles",
+      "pdh": 30,
+      "price": 549,
+      "savings": 30,
+      "included_courses": ["seismic-design-001", "bridge-inspection-002", "water-treatment-009", "sustainable-infra-014", "engineering-ethics-016", "project-mgmt-017"]
+    },
+    {
+      "id": "unlimited-annual",
+      "name": "Annual Unlimited",
+      "description": "Access all courses for one full year",
+      "pdh": "Unlimited",
+      "price": 599,
+      "savings": 50,
+      "included_courses": "all"
+    }
+  ]
+}

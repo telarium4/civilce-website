@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <!-- Background shape -->
+  <defs>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="orangeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f97316;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fb923c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Engineering compass/divider icon -->
+  <g transform="translate(10, 15)">
+    <!-- Compass/divider tool representing precision in engineering -->
+    <path d="M15 5 L10 25 L5 30 M15 5 L20 25 L25 30" 
+          stroke="url(#blueGradient)" 
+          stroke-width="2.5" 
+          fill="none" 
+          stroke-linecap="round"/>
+    <!-- Compass pivot point -->
+    <circle cx="15" cy="5" r="3" fill="url(#orangeGradient)"/>
+    <!-- Compass points -->
+    <circle cx="5" cy="30" r="2" fill="#1e3a8a"/>
+    <circle cx="25" cy="30" r="2" fill="#1e3a8a"/>
+    <!-- Arc showing measurement -->
+    <path d="M8 28 Q15 32 22 28" 
+          stroke="url(#orangeGradient)" 
+          stroke-width="1.5" 
+          fill="none" 
+          stroke-dasharray="1,1"/>
+  </g>
+  
+  <!-- Company name -->
+  <text x="45" y="35" font-family="Inter, Montserrat, sans-serif" font-size="24" font-weight="700" fill="#1e3a8a">
+    Civil<tspan fill="url(#orangeGradient)">CE</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="45" y="48" font-family="Open Sans, Roboto, sans-serif" font-size="8" fill="#64748b" letter-spacing="0.5">
+    CONTINUING EDUCATION
+  </text>
+  
+  <!-- Decorative line -->
+  <rect x="45" y="51" width="100" height="1" fill="url(#orangeGradient)" opacity="0.3"/>
+</svg>

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CivilCE serves Professional Engineers in Nevada and 40+ states requiring PDH hours. Check your state's continuing education requirements for PE license renewal.">
+    <meta name="keywords" content="PDH requirements by state, Nevada PDH, PE continuing education, state requirements, professional engineer license renewal">
+    <meta name="author" content="CivilCE">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="States We Serve - PDH Requirements | CivilCE">
+    <meta property="og:description" content="Check PDH requirements for Professional Engineers by state. CivilCE serves Nevada and 40+ states.">
+    <meta property="og:image" content="https://civilce.org/assets/logo.svg">
+    <meta property="og:url" content="https://civilce.org/states.html">
+    <meta property="og:type" content="website">
+    
+    <title>States We Serve - PDH Requirements by State | CivilCE</title>
+    
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="assets/styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        .state-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .state-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        }
+        .state-card.featured {
+            border: 2px solid var(--primary-orange);
+            background: linear-gradient(135deg, #fff 0%, #fff5eb 100%);
+        }
+        .state-badge {
+            display: inline-block;
+            padding: 0.25rem 0.5rem;
+            border-radius: 0.25rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+        }
+        .state-badge.active {
+            background: var(--accent-green);
+            color: white;
+        }
+        .state-badge.inactive {
+            background: var(--gray-300);
+            color: var(--gray-600);
+        }
+        .requirements-table {
+            width: 100%;
+            margin-top: 2rem;
+        }
+        .requirements-table th {
+            text-align: left;
+            padding: 0.75rem;
+            background: var(--gray-100);
+            font-weight: 600;
+        }
+        .requirements-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid var(--gray-200);
+        }
+        .state-highlight {
+            background: #fff5eb;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip to Content Link -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="index.html" aria-label="CivilCE Home">
+                    <img src="assets/logo.svg" alt="CivilCE Logo" width="200" height="60">
+                </a>
+            </div>
+            
+            <button class="navbar-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="states.html" class="active">States We Serve</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Page Header -->
+        <section class="hero" style="padding: 3rem 0;">
+            <div class="container">
+                <h1>States We Serve</h1>
+                <p>CivilCE provides NCEES-approved PDH courses for Professional Engineers in 41 states</p>
+            </div>
+        </section>
+        
+        <!-- Featured State - Nevada -->
+        <section class="section" style="background: white;">
+            <div class="container">
+                <div class="state-card featured">
+                    <div style="display: flex; justify-content: space-between; align-items: start; flex-wrap: wrap;">
+                        <div>
+                            <h2 style="color: var(--primary-orange);">⭐ Nevada - Featured State</h2>
+                            <span class="state-badge active">PDH Required</span>
+                            <p class="mt-2"><strong>30 PDH hours required every 2 years</strong></p>
+                            <p>CivilCE is fully approved for Nevada PE license renewal. Our courses meet all Nevada Board requirements.</p>
+                        </div>
+                        <div style="text-align: right;">
+                            <div class="course-price" style="font-size: 1.5rem;">30 PDH</div>
+                            <p style="color: var(--gray-600);">Biennial Requirement</p>
+                        </div>
+                    </div>
+                    <div class="mt-3">
+                        <h4>Nevada Specific Requirements:</h4>
+                        <ul>
+                            <li>30 PDH hours required biennially (every 2 years)</li>
+                            <li>At least 2 PDH must be in professional ethics</li>
+                            <li>Courses must be relevant to the practice of engineering</li>
+                            <li>Online courses are fully accepted</li>
+                            <li>Renewal deadline: June 30 of odd-numbered years</li>
+                        </ul>
+                        <div class="btn-group mt-3">
+                            <a href="courses.html" class="btn btn-primary">Browse Nevada-Approved Courses</a>
+                            <a href="https://nvbpels.org" target="_blank" rel="noopener" class="btn btn-secondary">Visit Nevada Board Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- State Requirements Table -->
+        <section class="section">
+            <div class="container">
+                <h2 class="text-center mb-4">PDH Requirements by State</h2>
+                <p class="text-center mb-4">All CivilCE courses are approved in states requiring continuing education</p>
+                
+                <div class="card">
+                    <div class="card-body">
+                        <table class="requirements-table">
+                            <thead>
+                                <tr>
+                                    <th>State</th>
+                                    <th>PDH Required</th>
+                                    <th>Hours</th>
+                                    <th>Period</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="state-highlight">
+                                    <td><strong>Nevada</strong> ⭐</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Alabama</td>
+                                    <td>Yes</td>
+                                    <td>15 PDH</td>
+                                    <td>Annual</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Alaska</td>
+                                    <td>Yes</td>
+                                    <td>24 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Arizona</td>
+                                    <td>No</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                    <td><span class="state-badge inactive">No Requirement</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Arkansas</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>California</td>
+                                    <td>No</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                    <td><span class="state-badge inactive">No Requirement</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Colorado</td>
+                                    <td>No</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                    <td><span class="state-badge inactive">No Requirement</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Connecticut</td>
+                                    <td>No</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                    <td><span class="state-badge inactive">No Requirement</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Delaware</td>
+                                    <td>Yes</td>
+                                    <td>24 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Florida</td>
+                                    <td>Yes</td>
+                                    <td>18 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Georgia</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Hawaii</td>
+                                    <td>No</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                    <td><span class="state-badge inactive">No Requirement</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Idaho</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Illinois</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Indiana</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Iowa</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Kansas</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Kentucky</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Louisiana</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>Annual</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Maine</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Maryland</td>
+                                    <td>Yes</td>
+                                    <td>16 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Massachusetts</td>
+                                    <td>No</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                    <td><span class="state-badge inactive">No Requirement</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Michigan</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Minnesota</td>
+                                    <td>Yes</td>
+                                    <td>24 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Mississippi</td>
+                                    <td>Yes</td>
+                                    <td>24 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Missouri</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Montana</td>
+                                    <td>No</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                    <td><span class="state-badge inactive">No Requirement</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Nebraska</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>New Hampshire</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>New Jersey</td>
+                                    <td>Yes</td>
+                                    <td>24 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>New Mexico</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>New York</td>
+                                    <td>Yes</td>
+                                    <td>36 PDH</td>
+                                    <td>3 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>North Carolina</td>
+                                    <td>Yes</td>
+                                    <td>15 PDH</td>
+                                    <td>Annual</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>North Dakota</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Ohio</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Oklahoma</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Oregon</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Pennsylvania</td>
+                                    <td>Yes</td>
+                                    <td>24 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Rhode Island</td>
+                                    <td>No</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                    <td><span class="state-badge inactive">No Requirement</span></td>
+                                </tr>
+                                <tr>
+                                    <td>South Carolina</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>South Dakota</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Tennessee</td>
+                                    <td>Yes</td>
+                                    <td>24 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Texas</td>
+                                    <td>Yes</td>
+                                    <td>15 PDH</td>
+                                    <td>Annual</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Utah</td>
+                                    <td>Yes</td>
+                                    <td>24 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Vermont</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Virginia</td>
+                                    <td>Yes</td>
+                                    <td>16 PDH</td>
+                                    <td>Annual</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Washington</td>
+                                    <td>No</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                    <td><span class="state-badge inactive">No Requirement</span></td>
+                                </tr>
+                                <tr>
+                                    <td>West Virginia</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Wisconsin</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Wyoming</td>
+                                    <td>Yes</td>
+                                    <td>30 PDH</td>
+                                    <td>2 years</td>
+                                    <td><span class="state-badge active">Served</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-4">
+                    <h3>41 States Served • 100% Online • NCEES Approved</h3>
+                    <a href="courses.html" class="btn btn-primary btn-lg mt-3">Start Earning PDH Hours</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Additional Information -->
+        <section class="section" style="background: white;">
+            <div class="container">
+                <h2 class="text-center mb-4">Important Information</h2>
+                <div class="grid grid-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>States with PDH Requirements</h3>
+                            <p>41 states plus the District of Columbia require Professional Engineers to complete continuing education to maintain their licenses. Requirements vary by state, ranging from 15 to 36 PDH hours per renewal period.</p>
+                            <p class="mt-2"><strong>CivilCE courses are approved in all states that require continuing education.</strong></p>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>States Without PDH Requirements</h3>
+                            <p>Currently, 9 states do not require continuing education for PE license renewal: Arizona, California, Colorado, Connecticut, Hawaii, Massachusetts, Montana, Rhode Island, and Washington.</p>
+                            <p class="mt-2">While not required, many engineers in these states still pursue continuing education to stay current with industry standards.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card mt-3">
+                    <div class="card-body text-center">
+                        <h3>Certificate of Completion</h3>
+                        <p>Upon successful completion of any CivilCE course, you'll receive an official certificate that includes:</p>
+                        <ul style="list-style: none; display: inline-block; text-align: left;">
+                            <li>✓ Your name and PE license number</li>
+                            <li>✓ Course title and description</li>
+                            <li>✓ Number of PDH hours earned</li>
+                            <li>✓ Date of completion</li>
+                            <li>✓ CivilCE provider number</li>
+                            <li>✓ Instructor signature</li>
+                        </ul>
+                        <p class="mt-3"><strong>Certificates are accepted by all state boards requiring continuing education.</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="assets/logo.svg" alt="CivilCE" style="height: 50px; margin-bottom: 1rem; filter: brightness(0) invert(1);">
+                    <p>Professional Development Hours for Civil Engineers</p>
+                    <p>NCEES-Approved Continuing Education</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Browse Courses</a></li>
+                        <li><a href="states.html">States We Serve</a></li>
+                        <li><a href="about.html">About CivilCE</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html#faq">FAQ</a></li>
+                        <li><a href="contact.html">Help Center</a></li>
+                        <li><a href="mailto:support@civilce.org">support@civilce.org</a></li>
+                        <li><a href="tel:1-800-PDH-COURSE">1-800-PDH-COURSE</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#refund">Refund Policy</a></li>
+                        <li><a href="#accreditation">Accreditation</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 CivilCE | civilce.org | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="assets/main.js"></script>
+</body>
+</html>

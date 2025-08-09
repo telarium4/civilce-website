@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse CivilCE's complete catalog of PDH courses for Professional Engineers. Structural, Transportation, Water Resources, Geotechnical, and Environmental Engineering courses available.">
+    <meta name="keywords" content="PDH courses catalog, engineering courses, structural engineering PDH, transportation engineering, water resources, geotechnical, environmental engineering">
+    <meta name="author" content="CivilCE">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="PDH Course Catalog - CivilCE">
+    <meta property="og:description" content="Browse our complete catalog of NCEES-approved PDH courses for Professional Engineers.">
+    <meta property="og:image" content="https://civilce.org/assets/logo.svg">
+    <meta property="og:url" content="https://civilce.org/courses.html">
+    <meta property="og:type" content="website">
+    
+    <title>PDH Course Catalog | CivilCE - Continuing Education for Engineers</title>
+    
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="stylesheet" href="assets/styles.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip to Content Link -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="navbar-container">
+            <div class="navbar-logo">
+                <a href="index.html" aria-label="CivilCE Home">
+                    <img src="assets/logo.svg" alt="CivilCE Logo" width="200" height="60">
+                </a>
+            </div>
+            
+            <button class="navbar-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            <ul class="navbar-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html" class="active">Courses</a></li>
+                <li><a href="states.html">States We Serve</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main id="main">
+        <!-- Page Header -->
+        <section class="hero" style="padding: 3rem 0;">
+            <div class="container">
+                <h1>PDH Course Catalog</h1>
+                <p>Browse our complete selection of NCEES-approved continuing education courses</p>
+            </div>
+        </section>
+        
+        <!-- Course Filters -->
+        <section class="section" style="padding-top: 2rem;">
+            <div class="container">
+                <div class="card">
+                    <div class="card-body">
+                        <h3>Filter Courses</h3>
+                        
+                        <!-- Category Filter -->
+                        <div class="mb-3">
+                            <label class="form-label">Category:</label>
+                            <div id="category-filter" class="btn-group" style="flex-wrap: wrap;">
+                                <!-- Buttons will be added via JavaScript -->
+                            </div>
+                        </div>
+                        
+                        <!-- PDH Hours Filter -->
+                        <div class="grid grid-2" style="gap: 1rem;">
+                            <div class="form-group">
+                                <label for="pdh-filter" class="form-label">PDH Hours:</label>
+                                <select id="pdh-filter" class="form-control">
+                                    <option value="all">All PDH Hours</option>
+                                    <option value="1-4">1-4 PDH</option>
+                                    <option value="5-8">5-8 PDH</option>
+                                    <option value="9+">9+ PDH</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="sort-select" class="form-label">Sort By:</label>
+                                <select id="sort-select" class="form-control">
+                                    <option value="featured">Featured</option>
+                                    <option value="price-low">Price: Low to High</option>
+                                    <option value="price-high">Price: High to Low</option>
+                                    <option value="pdh">PDH Hours</option>
+                                    <option value="name">Course Name</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Course Grid -->
+        <section class="section" style="padding-top: 2rem;">
+            <div class="container">
+                <div id="course-grid" class="grid grid-3">
+                    <!-- Individual Course Cards -->
+                    <div class="card course-card">
+                        <span class="course-category">Structural Engineering</span>
+                        <div class="card-body">
+                            <h3>Advanced Seismic Design Principles</h3>
+                            <span class="course-pdh">8 PDH</span>
+                            <p>Comprehensive coverage of modern seismic design principles including performance-based design and nonlinear analysis.</p>
+                            <div class="mt-2">
+                                <small>Instructor: Dr. Michael Chen, PE, SE</small>
+                            </div>
+                            <div class="course-price">$199</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="course-detail.html?id=seismic-design-001" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card course-card">
+                        <span class="course-category">Structural Engineering</span>
+                        <div class="card-body">
+                            <h3>Bridge Inspection and Maintenance</h3>
+                            <span class="course-pdh">6 PDH</span>
+                            <p>Essential training for bridge inspection following NBIS standards. Covers inspection techniques and condition assessment.</p>
+                            <div class="mt-2">
+                                <small>Instructor: Sarah Johnson, PE</small>
+                            </div>
+                            <div class="course-price">$149</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="course-detail.html?id=bridge-inspection-002" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card course-card">
+                        <span class="course-category">Transportation Engineering</span>
+                        <div class="card-body">
+                            <h3>Highway Safety Design Standards</h3>
+                            <span class="course-pdh">6 PDH</span>
+                            <p>Comprehensive review of highway safety design including roadside design and intersection safety improvements.</p>
+                            <div class="mt-2">
+                                <small>Instructor: James Martinez, PE, PTOE</small>
+                            </div>
+                            <div class="course-price">$149</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="course-detail.html?id=highway-safety-004" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card course-card">
+                        <span class="course-category">Transportation Engineering</span>
+                        <div class="card-body">
+                            <h3>Pavement Design and Management</h3>
+                            <span class="course-pdh">7 PDH</span>
+                            <p>Modern pavement design methods including mechanistic-empirical design and pavement management systems.</p>
+                            <div class="mt-2">
+                                <small>Instructor: Thomas Anderson, PE</small>
+                            </div>
+                            <div class="course-price">$175</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="course-detail.html?id=pavement-design-006" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card course-card">
+                        <span class="course-category">Water Resources</span>
+                        <div class="card-body">
+                            <h3>Stormwater Management Best Practices</h3>
+                            <span class="course-pdh">8 PDH</span>
+                            <p>Comprehensive stormwater management including LID techniques, green infrastructure, and water quality treatment.</p>
+                            <div class="mt-2">
+                                <small>Instructor: Jennifer Davis, PE, CFM</small>
+                            </div>
+                            <div class="course-price">$199</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="course-detail.html?id=stormwater-mgmt-007" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card course-card">
+                        <span class="course-category">Water Resources</span>
+                        <div class="card-body">
+                            <h3>Water Treatment Plant Design</h3>
+                            <span class="course-pdh">10 PDH</span>
+                            <p>Complete water treatment plant design from source to distribution. Covers conventional and advanced treatment processes.</p>
+                            <div class="mt-2">
+                                <small>Instructor: Patricia Wilson, PE, ENV SP</small>
+                            </div>
+                            <div class="course-price">$249</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="course-detail.html?id=water-treatment-009" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card course-card">
+                        <span class="course-category">Environmental Engineering</span>
+                        <div class="card-body">
+                            <h3>Sustainable Infrastructure Design</h3>
+                            <span class="course-pdh">6 PDH</span>
+                            <p>Sustainable design principles for civil infrastructure including green building practices and renewable energy integration.</p>
+                            <div class="mt-2">
+                                <small>Instructor: Christopher Moore, PE, LEED AP</small>
+                            </div>
+                            <div class="course-price">$149</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="course-detail.html?id=sustainable-infra-014" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card course-card">
+                        <span class="course-category">Ethics and Professional Practice</span>
+                        <div class="card-body">
+                            <h3>Engineering Ethics and Professional Responsibility</h3>
+                            <span class="course-pdh">2 PDH</span>
+                            <p>Essential ethics training for professional engineers covering codes of conduct and ethical decision-making.</p>
+                            <div class="mt-2">
+                                <small>Instructor: William Harris, PE, Esq.</small>
+                            </div>
+                            <div class="course-price">$49</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="course-detail.html?id=engineering-ethics-016" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card course-card">
+                        <span class="course-category">Geotechnical Engineering</span>
+                        <div class="card-body">
+                            <h3>Foundation Design for Difficult Soils</h3>
+                            <span class="course-pdh">6 PDH</span>
+                            <p>Specialized foundation design techniques for challenging soil conditions including expansive and liquefiable soils.</p>
+                            <div class="mt-2">
+                                <small>Instructor: Dr. Kevin Lee, PE, GE</small>
+                            </div>
+                            <div class="course-price">$149</div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="course-detail.html?id=foundation-design-010" class="btn btn-primary btn-block">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Load More Button -->
+                <div class="text-center mt-4">
+                    <button class="btn btn-secondary">Load More Courses</button>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Bundle Packages Section -->
+        <section id="bundles" class="section" style="background: white;">
+            <div class="container">
+                <h2 class="text-center mb-4">Course Bundle Packages</h2>
+                <p class="text-center mb-4">Save up to 50% with our bundle packages</p>
+                
+                <div class="grid grid-3">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h3>Essential Pack</h3>
+                            <div class="badge badge-success">Save 25%</div>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="course-pdh" style="font-size: 2rem;">15 PDH</div>
+                            <p>Perfect for annual requirements</p>
+                            <ul style="list-style: none; padding: 0;">
+                                <li>✓ 3 Selected Courses</li>
+                                <li>✓ Ethics Included</li>
+                                <li>✓ Certificate for Each</li>
+                            </ul>
+                            <div class="course-price" style="font-size: 2rem;">$299</div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary btn-block">Select This Bundle</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card" style="border: 2px solid var(--primary-orange);">
+                        <div class="card-header text-center" style="background: var(--primary-orange); color: white;">
+                            <h3>Professional Pack</h3>
+                            <div class="badge" style="background: white; color: var(--primary-orange);">Most Popular</div>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="course-pdh" style="font-size: 2rem;">30 PDH</div>
+                            <p>Two-year renewal package</p>
+                            <ul style="list-style: none; padding: 0;">
+                                <li>✓ 6 Premium Courses</li>
+                                <li>✓ All Categories</li>
+                                <li>✓ Priority Support</li>
+                            </ul>
+                            <div class="course-price" style="font-size: 2rem;">$549</div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-primary btn-block">Select This Bundle</button>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h3>Annual Unlimited</h3>
+                            <div class="badge badge-warning">Best Value</div>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="course-pdh" style="font-size: 2rem;">∞ PDH</div>
+                            <p>All courses for one year</p>
+                            <ul style="list-style: none; padding: 0;">
+                                <li>✓ All 18+ Courses</li>
+                                <li>✓ New Courses Added</li>
+                                <li>✓ Unlimited Access</li>
+                            </ul>
+                            <div class="course-price" style="font-size: 2rem;">$599</div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-success btn-block">Get Unlimited Access</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="assets/logo.svg" alt="CivilCE" style="height: 50px; margin-bottom: 1rem; filter: brightness(0) invert(1);">
+                    <p>Professional Development Hours for Civil Engineers</p>
+                    <p>NCEES-Approved Continuing Education</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="courses.html">Browse Courses</a></li>
+                        <li><a href="states.html">States We Serve</a></li>
+                        <li><a href="about.html">About CivilCE</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="contact.html#faq">FAQ</a></li>
+                        <li><a href="contact.html">Help Center</a></li>
+                        <li><a href="mailto:support@civilce.org">support@civilce.org</a></li>
+                        <li><a href="tel:1-800-PDH-COURSE">1-800-PDH-COURSE</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#refund">Refund Policy</a></li>
+                        <li><a href="#accreditation">Accreditation</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 CivilCE | civilce.org | All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="assets/main.js"></script>
+</body>
+</html>
