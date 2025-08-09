@@ -1,0 +1,14 @@
+name = "civilce-website"
+compatibility_date = "2025-08-09"
+
+[site]
+bucket = "./"
+
+[[build.upload.rules]]
+type = "CompiledWasm"
+globs = ["**/*.wasm"]
+fallthrough = true
+
+[[build.upload.rules]]
+type = "Text"
+globs = ["**/*.html", "**/*.css", "**/*.js", "**/*.json", "**/*.svg", "**/*.md"]
