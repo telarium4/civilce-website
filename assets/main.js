@@ -392,7 +392,6 @@ async function loadCourseDetails(courseId) {
             document.getElementById('course-pdh').textContent = `${course.pdh} PDH Hours`;
             document.getElementById('course-price').textContent = `$${course.price}`;
             document.getElementById('course-description').textContent = course.description;
-            document.getElementById('course-instructor').textContent = course.instructor;
             document.getElementById('course-duration').textContent = course.duration;
             document.getElementById('course-level').textContent = course.level;
             
